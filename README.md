@@ -15,13 +15,17 @@ pass ***Params*** in when onPrepare()
 
 Usage:
 
+[![](https://jitpack.io/v/oyyj42/SimpleRxTaskDemo.svg)](https://jitpack.io/#oyyj42/SimpleRxTaskDemo)
+
+demo:
+
 ```
 
        mTask = new SimpleRxTask<Integer, String>() {
 
             @Override
             protected void onPrepare() {
-                super.onPrepare();
+
             }
 
             @Override
@@ -31,19 +35,18 @@ Usage:
 
             @Override
             protected void onProgress(Integer integer) {
-                super.onProgress(integer);
+  
             }
 
             @Override
 
             protected void onSuccess(String result) {
                 Log.i(TAG, "result:" + result);
-
             }
 
             @Override
             protected void onCancelled() {
-                super.onCancelled();
+   
             }
         };
 
