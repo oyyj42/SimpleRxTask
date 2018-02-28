@@ -1,4 +1,4 @@
-# SimpleRxTaskDemo
+# SimpleRxTask
 A SimpleRxTask, base on RxJava2, take plase of AsyncTask of Android.
 
 Improvements: 
@@ -9,7 +9,7 @@ Improvements:
 
 3. Consistent. Don't need to care about different implement of AsyncTask in  Android 2.3 ~ 8.0
 
-4. Simple. like : ***SimpleRxTask<PROGRESS, RESULT>*** instead of ***AsyncTask<Params, Progress, Result>***, because you can 
+4. Simple. like : ***SimpleRxTask<PROGRESS, RESULT>*** , instead of ***AsyncTask<Params,Progress,Result>***, because you can 
 pass ***Params*** in when onPrepare()
 
 
