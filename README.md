@@ -1,4 +1,8 @@
 # SimpleRxTask
+
+[![](https://jitpack.io/v/oyyj42/SimpleRxTaskDemo.svg)](https://jitpack.io/#oyyj42/SimpleRxTaskDemo)
+
+
 A SimpleRxTask, base on RxJava2, take plase of AsyncTask of Android.
 
 Improvements: 
@@ -15,7 +19,13 @@ pass ***Params*** in when onPrepare()
 
 Usage:
 
-[![](https://jitpack.io/v/oyyj42/SimpleRxTaskDemo.svg)](https://jitpack.io/#oyyj42/SimpleRxTaskDemo)
+```
+
+	dependencies {
+	        compile 'com.github.oyyj42:SimpleRxTaskDemo:v1.0.1'
+	}
+	
+```
 
 demo:
 
