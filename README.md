@@ -35,8 +35,10 @@ Usage:
             }
 
             @Override
+
             protected void onSuccess(String result) {
                 Log.i(TAG, "result:" + result);
+
             }
 
             @Override
@@ -46,6 +48,4 @@ Usage:
         };
 
         mTask.start();
-
-
 ```
